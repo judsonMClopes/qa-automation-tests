@@ -1,3 +1,19 @@
+# Dependências
 node_modules/
-output/
+
+# Arquivos de ambiente
 .env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Pasta de saída / relatórios
+output/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
