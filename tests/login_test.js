@@ -10,7 +10,7 @@ Scenario('Login com sucesso',  ({ I }) => {
     I.click('#btnLogin')
     I.see('Login realizado Olá, judsonlopes88@gmail.com')
     
-})
+}).tag('Sucesso')
 
 Scenario('Tentando logar digitando apenas o e-mail',  ({ I }) => {
 
